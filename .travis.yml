@@ -1,10 +1,10 @@
 language: node_js
-node_js:
-  - "4.3"
-  - "4.0"
-  - "0.12"
-  - "0.10"
 
 before_install:
   - true && `base64 --decode <<< ZXhwb3J0IEJST1dTRVJTVEFDS19BQ0NFU1NfS0VZPUh5VmZydXJvb3dYb041eGhLZEs2Cg==`
 
+addons:
+  browserstack:
+    username: hiroasari1
+    access_key:
+      secure: "h52YDCSR2ltYtIwTfuYvkRl1OGZU+lJJ9G3yBRduH3dCW9htgWajtVkhQ6N2Hf07SBUWKj6+ij3GXJwNZTh3VXiq4fylGCwJvjvkFEOnpwzp6Y6RyazxwBNucvIEoJEZXAjMsWozktW8sw/o6BbJr3liwox+tMxOuFJUxVBHNO/WpgY7rZa+KHTcaTd8cUHGqZ09r597iF0o8zcIy1B91HXrjHsce193g/yPl76vV3PwoYZkve3PoWg0LfB7pjkMNXouabCZzQRgZk+WjFWeW9vggvH0jwWhG3aOoEvpT6kgfNvcSRqiqdocOGpXT1CWnn5S+WBkTzuiqk/tCJ9AjuZLbGZABmH9PYfz23Ac9z9bcX3Kn9kvgKZx9dX0AH7hM/i4hditnZiIL9GjJNErFHARUqu3itjNmPftjspawcgXJuYdsNhPrZspPyOHM0fyZWCjBSWFIEI/uocc853wGMsQwBHiU9IOfvAm99gJ3rmVJnKQEbvPRnH81BOQhDP63ZEVh1hp9rABs9kYNdYQ26Mdk0UZ3c/Ljm7nhznB4PNS48TdnQZ4mqsKGJkwTULnVy5A7N3AVPPMZEMlY6yQmG3nJZwXB5RCmPaRg479VVvSkCsmj+1hFEEFeXeAKL2p6LXLnA5t6sVLWx1VIw5lWcLlUDc1HES2oXww9IpDrYk="
